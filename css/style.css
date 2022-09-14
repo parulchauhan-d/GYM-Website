@@ -1,36 +1,122 @@
-.left{
-    border: 2px solid  green;
+.left {
+
     display: inline-block;
     position: absolute;
-    top: 22pxpx;
-    left: 30px;
+    top: 10px;
+    left: 70px;
+
 }
 
-.mid{
-    border: 2px solid  yellow;
+.mid {
+
     display: block;
-    width: 33%;
-    margin:  22px auto;
+    width: 40%;
+    margin: 22px auto;
 }
 
-.right{
-    border: 2px solid  red;
+.right {
+
     display: inline-block;
     position: absolute;
     top: 22px;
     right: 30px;
 }
 
-.navbar{
+.navbar {
     display: inline-block;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
-}
-
-.navbar  li a{
-    color: black;
-    text-decoration: none;
     font-size: 20px;
+}
+
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px 15px;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: green;
+    text-decoration: underline;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    color: gray;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 5px;
+    box-sizing: border-box;
+}
+
+.fa-solid,
+.fa-brands {
+    color: blue;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-brands {
+    background-color: white;
+}
+
+.right {
+    margin-right: 50px;
+}
+
+.container {
+    border: 2px solid white;
+    margin:  70px  82px 30px 82px;
+    padding: 40px 50px;
+    width: 33%;
+    border-radius: 17px;
+}
+
+.form-group input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+ .container .btn{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+
 }
